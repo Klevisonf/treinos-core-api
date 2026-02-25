@@ -1,15 +1,12 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
   "compilerOptions": {
-  
     "module": "nodenext",
     "moduleResolution": "nodenext",
     "target": "es2024",
-    "outDir": "./dist",
-    "rootDir": "./src",
-    "strict": true,
     "skipLibCheck": true,
-   
+    "strict": true,
+    "outDir": "./dist"
   },
-  "include": ["src"],
+  "include": ["src"]
 }
